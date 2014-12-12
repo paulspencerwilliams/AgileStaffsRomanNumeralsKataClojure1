@@ -13,7 +13,11 @@
 
 (defn roman-to-decimal [roman]
   (loop [d 0
-         s (map lookup (seq roman))]
+         l 0 
+         s (map lookup (reverse (seq roman)))]
     (if-not (empty? s)
-      (recur (+ d (first s)) (rest s))
+      (let [n (first s)]
+        (if (< n l) 
+          (recur (- d n) l (rest s))
+          (recur (+ d n) n (rest s))))
       d)))
