@@ -11,4 +11,11 @@
        (fact "it handles V"
              (roman-to-decimal "IV") => 4 
              (roman-to-decimal "V") => 5
-             (roman-to-decimal "VI") => 6))
+             (roman-to-decimal "VI") => 6
+             (roman-to-decimal "VII") => 7
+             (roman-to-decimal "VIII") => 8)
+
+       (fact "it handles X"
+             (roman-to-decimal "IX") => 9 
+             (roman-to-decimal "X") => 10 
+             (roman-to-decimal "XI") => 11))
