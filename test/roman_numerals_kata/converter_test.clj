@@ -18,4 +18,19 @@
        (fact "it handles X"
              (roman-to-decimal "IX") => 9 
              (roman-to-decimal "X") => 10 
-             (roman-to-decimal "XI") => 11))
+             (roman-to-decimal "XI") => 11)
+       (fact "it handles the sample data"
+             (roman-to-decimal "III") => 3
+             (roman-to-decimal "XXX") => 30
+             (roman-to-decimal "CCC")=> 300
+             (roman-to-decimal "MMM") => 3000
+             (roman-to-decimal "VII")=> 7
+             (roman-to-decimal "LXVI")=> 66
+             (roman-to-decimal "CL") => 150
+             (roman-to-decimal "MCC") => 1200
+             (roman-to-decimal "IV") => 4
+             (roman-to-decimal "IX") => 9
+             (roman-to-decimal "XC") => 90
+             (roman-to-decimal "ICM") => 901
+             (roman-to-decimal "CIM") => 899
+             (roman-to-decimal "MDCLXVI") => 1666))
