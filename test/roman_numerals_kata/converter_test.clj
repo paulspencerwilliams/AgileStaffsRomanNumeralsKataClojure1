@@ -19,6 +19,7 @@
              (roman-to-decimal "IX") => 9 
              (roman-to-decimal "X") => 10 
              (roman-to-decimal "XI") => 11)
+
        (fact "it handles the sample data"
              (roman-to-decimal "III") => 3
              (roman-to-decimal "XXX") => 30
@@ -31,6 +32,4 @@
              (roman-to-decimal "IV") => 4
              (roman-to-decimal "IX") => 9
              (roman-to-decimal "XC") => 90
-             (roman-to-decimal "ICM") => 901
-             (roman-to-decimal "CIM") => 899
              (roman-to-decimal "MDCLXVI") => 1666))
