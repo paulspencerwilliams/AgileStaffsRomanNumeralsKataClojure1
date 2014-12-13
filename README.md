@@ -1,10 +1,12 @@
 # Agile Staffs Roman Numerals Kata in Clojure 
 
-Before Thursday night's session, I made a promise to myself. Whichever kata I
-chose, I would do it in Clojure. However as I started pairing with Mike, a
-relatively new first year student, I thought a language as initially mind
-bending as Clojure combined with introductions to TDD and Git might be step too
-far. We thus explored the Roman Numerals Kata in Java. 
+Before [Thursday's Agile Staffs
+session](http://www.meetup.com/Agile-Staffordshire/events/218889499), I made a
+promise to myself; whichever kata I chose, I would do it in Clojure. However as
+I started pairing with Mike, a relatively new first year student, I thought a
+language as initially mind bending as Clojure combined with introductions to
+TDD and Git might be step too far. We thus explored the [Roman Numerals Kata in
+Java](https://github.com/paulspencerwilliams/AgileStaffsRomanNumeralsKataJava1). 
 
 To fulfil my promise to myself, I pretty much completed the kata during
 yesterday's lunch break. As I succeeded in completing the challenge, I did
